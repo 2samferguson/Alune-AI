@@ -1,0 +1,50 @@
+div{position: absolute; text-align: center; vertical-align: middle;}
+h1{position: absolute; font-size: 30px;}
+img{background: black; position: absolute;}
+input{width: 490px; height: 45px; background: white; position: absolute;}
+button{border-width: 5px; position: absolute; border-color: grey}
+select{position: absolute}
+
+.random{left: 300px; top: 100px; background: gold; width: 190px; height: 40px;}
+.switch{left: 0px; top: 800px; background: darkgrey;}
+.reset{left: 250px; top: 800px; background: darkgrey;}
+.filter{left: 600px; top: 800px; background: darkgrey;}
+.cf{left: 850px; top: 800px; background: darkgrey;}
+
+.form0{top: 45px; left: 0px;}
+.form1{top: 595px; left: 0px;}
+.head1{top: 0px; left: 0px; background: black; color: lightgrey;}
+.head2{top: 550px; left: 0px; background: black; color: lightgrey;}
+.bar1{top: 300px; left: 0px; background-color: green;}
+.bar2{top: 300px; left: 245px; background-color: red;}
+
+.Alune{left: 0px; top: 10px; color: deepskyblue;}
+.League{left: 170px; top: 10px; color: lightgrey;}
+.words1{left: 0px; top: 90px; color: black; font-size: 25px;}
+.words2{left: 600px; top: 90px; color: black; font-size: 25px;}
+.words3{left: 600px; top: 10px; color: lightgrey; font-size: 20px;}
+.words4{left: 600px; top: 40px; color: lightgrey; font-size: 20px;}
+.words5{left: 860px; top: 10px; color: lightgrey; font-size: 20px;}
+.words6{left: 825px; top: 40px; color: lightgrey; font-size: 20px;}
+
+.dropdown{left: 736px; top: 56px; background: lightgrey;}
+.main{left: 0px; top: 150px; width: 1090px; height: 634px;}
+.mainhead{height: 90px; width: auto; min-width: 1120px;}
+.banner{position: static; background-color: black; margin: -10px;}
+.scroll{width: 500px; height: 490px; overflow-y: scroll;}
+.all{position: relative; top: -80px; width: 1100px; margin: auto;}
+
+.rb{background-size: 90px 90px; background-position: center;}
+.heading{width: 490px; height: 45px; font-size: 20px; line-height: 45px;}
+.border{box-sizing: border-box; border-style: solid; border-width: 2px;}
+.nonechamp{top: 100px; left: 650px;}
+.allrole{top: 100px; left: 600px;}
+.x0.y8{width: 0px;}
+
+.txt{line-height: 40px; color: lightgrey; font-size: 15px;}
+.bigtext{font-family: sans-serif; text-align: left;}
+.bar{width: 245px; height: 40px; font-size: 25px;}
+.slab{width: 90px; height: 40px; background: black;}
+.bigslab{width: 240px; height: 40px;}
+.small{width: 40px; height: 40px;}
+.big{width: 90px; height: 90px; background-color: black;}
