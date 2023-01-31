@@ -31,7 +31,7 @@ select{position: absolute}
 .main{left: 0px; top: 150px; width: 1090px; height: 634px;}
 .mainhead{height: 90px; width: auto; min-width: 1120px;}
 .banner{position: static; background-color: black; margin: -10px;}
-.scroll{width: 500px; height: 490px; overflow-y: scroll;}
+.scroll{width: 500px; height: 490px; overflow-y: scroll; overflow-x: hidden;}
 .all{position: relative; top: -80px; width: 1100px; margin: auto;}
 
 .rb{background-size: 90px 90px; background-position: center;}
