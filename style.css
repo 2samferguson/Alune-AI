@@ -27,7 +27,7 @@ select{position: absolute}
 .words4{left: 600px; top: 40px; color: lightgrey; font-size: 20px;}
 .words5{left: 860px; top: 10px; color: lightgrey; font-size: 20px;}
 .words6{left: 825px; top: 40px; color: lightgrey; font-size: 20px;}
-.github{text-decoration:none;  position: absolute; font-size: 20px;}
+.github{text-decoration: none;  position: absolute; font-size: 20px;}
 
 .dropdown{left: 736px; top: 56px; background: lightgrey;}
 .main{left: 0px; top: 150px; width: 1090px; height: 634px;}
