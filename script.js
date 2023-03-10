@@ -32,7 +32,7 @@ async function load() {
 
   rolechamps[3] = [9, 17, 19, 25, 29, 49, 50, 51, 54,
   70, 77, 106, 116, 129, 133, 137, 138, 148, 157, 158]
-  roledeltas[129][3] = 0.001; namedict["del"] = null; namedict["vi"] = 141;
+  namedict["del"] = null; namedict["vi"] = 141;
 
   grab("words6").textContent = total+" Matches Analyzed"
   display()}
