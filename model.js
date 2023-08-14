@@ -60,7 +60,7 @@ function display(){
   function compare(a, b){return compute(b, myrole, 0) - compute(a, myrole, 0);}
   function argsort(){return champlist.sort(compare);}
   champlist = rolechamps[myrole];
-  if (showall == 1) {champlist = [...Array(162).keys()];}
+  if (showall == 1) {champlist = [...Array(164).keys()];}
   order = argsort();
   buildscroll();
   predict(0);
