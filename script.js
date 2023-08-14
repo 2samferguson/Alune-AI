@@ -29,10 +29,7 @@ async function load() {
   for (let i = 0; i < 164; i++) {synergies[i][null] = 0; counters[i][null] = 0;}
   zeros = Array(164).fill(0); zeros[null] = 0;
   counters[null] = zeros; synergies[null] = zeros;
-
-  rolechamps[3] = [9, 17, 19, 25, 29, 49, 50, 51, 54,
-  70, 77, 106, 116, 129, 133, 137, 138, 148, 157, 158]
-  roledeltas[129][3] = -0.0001; namedict["del"] = null; namedict["vi"] = 141;
+  namedict["del"] = null; namedict["vi"] = 141;
 
   grab("words6").textContent = total+" Matches Analyzed"
   display()}
