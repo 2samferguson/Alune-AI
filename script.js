@@ -26,8 +26,8 @@ async function load() {
   counters = await (await fetch(mainurl+'data/'+patch+'/counters')).json();
 
   roledeltas[null] = [0, 0, 0, 0, 0]; basedeltas[null] = 0;
-  for (let i = 0; i < 162; i++) {synergies[i][null] = 0; counters[i][null] = 0;}
-  zeros = Array(162).fill(0); zeros[null] = 0;
+  for (let i = 0; i < 164; i++) {synergies[i][null] = 0; counters[i][null] = 0;}
+  zeros = Array(164).fill(0); zeros[null] = 0;
   counters[null] = zeros; synergies[null] = zeros;
 
   rolechamps[3] = [9, 17, 19, 25, 29, 49, 50, 51, 54,
