@@ -30,7 +30,7 @@ async function load() {
   zeros = Array(165).fill(0); zeros[null] = 0;
   counters[null] = zeros; synergies[null] = zeros;
   namedict["del"] = null; namedict["vi"] = 141;
-  console.log('Last Updated 8/14/2023 8:02')
+  console.log('Last Updated 8/28/2023 8:02')
 
   grab("words6").textContent = total+" Matches Analyzed"
   display()}
