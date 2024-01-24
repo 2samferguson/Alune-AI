@@ -26,11 +26,11 @@ async function load() {
   counters = await (await fetch(mainurl+'data/'+patch+'/counters')).json();
 
   roledeltas[null] = [0, 0, 0, 0, 0]; basedeltas[null] = 0;
-  for (let i = 0; i < 165; i++) {synergies[i][null] = 0; counters[i][null] = 0;}
-  zeros = Array(165).fill(0); zeros[null] = 0;
+  for (let i = 0; i < 166; i++) {synergies[i][null] = 0; counters[i][null] = 0;}
+  zeros = Array(166).fill(0); zeros[null] = 0;
   counters[null] = zeros; synergies[null] = zeros;
-  namedict["del"] = null; namedict["vi"] = 141;
-  console.log('Last Updated 8/28/2023 8:02')
+  namedict["del"] = null; namedict["vi"] = 145;
+  console.log('Last Updated 1/24/2024 12:08')
 
   grab("words6").textContent = total+" Matches Analyzed"
   display()}
